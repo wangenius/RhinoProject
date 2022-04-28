@@ -42,9 +42,9 @@ In Rhino, click tools -> options -> Plug-ins -> CodeListener -> Proterties, copy
 
 Start VS Code, open user settings by keyboard shortcut Ctrl+, paste the libraries paths and autocomplete path into the user settings with key "python.autoComplete.extraPaths", below is an example setting.
 
-//
 
-{
+
+    {
     // disable certain pylint messages
     "python.linting.pylintArgs": [
         "--errors-only",
@@ -68,7 +68,7 @@ Start VS Code, open user settings by keyboard shortcut Ctrl+, paste the librarie
     // True if you want to reset script engine every time you send code, otherwise False
     "RhinoPython.ResetAndRun": true
 
-}
+    }
 
 
 
