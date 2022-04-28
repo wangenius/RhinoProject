@@ -42,6 +42,7 @@ In Rhino, click tools -> options -> Plug-ins -> CodeListener -> Proterties, copy
 
 Start VS Code, open user settings by keyboard shortcut Ctrl+, paste the libraries paths and autocomplete path into the user settings with key "python.autoComplete.extraPaths", below is an example setting.
 
+//
 
 {
     // disable certain pylint messages
@@ -57,6 +58,7 @@ Start VS Code, open user settings by keyboard shortcut Ctrl+, paste the librarie
         "C:\\Program Files\\Rhinoceros 5 (64-bit)\\Plug-ins\\IronPython\\Lib",
         "C:\\Users\\jingcheng\\AppData\\Roaming\\McNeel\\Rhinoceros\\5.0\\scripts"
     ],
+    
 
     // enable new language server. THIS IS EXTREMELY IMPORTANT TO HAVE FAST AUTOCOMPLETE!!
     "python.jediEnabled": false,
@@ -65,7 +67,10 @@ Start VS Code, open user settings by keyboard shortcut Ctrl+, paste the librarie
     "RhinoPython.Enabled": true,
     // True if you want to reset script engine every time you send code, otherwise False
     "RhinoPython.ResetAndRun": true
+
 }
+
+
 
 ### usage
 Start Rhino, type command CodeListener. You should see VS Code Listener Started....
